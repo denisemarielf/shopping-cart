@@ -8,7 +8,6 @@ import Shop from "./components/Shop";
 function App() {
   const [products, setProducts] = useState([]);
 
-  console.log("rendered");
   return (
     <div className="App">
       <Nav

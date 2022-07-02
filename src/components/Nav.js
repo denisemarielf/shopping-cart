@@ -15,10 +15,10 @@ export default function Nav({ products, quantity, setProducts }) {
       </div>
       <ul className="nav-ul">
         <li>
-          <Link to="/">home</Link>
+          <Link to="/shopping-cart">home</Link>
         </li>
         <li>
-          <Link to="/shop">shop</Link>
+          <Link to="/shopping-cart/shop">shop</Link>
         </li>
         <CartNav setIsDisplayed={setIsDisplayed} quantity={quantity} />
       </ul>
