@@ -5,6 +5,11 @@
     justify-content: space-between;
     align-items: center;
     background-color: #E9D6D0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    
 }
 
 .homepage-img {

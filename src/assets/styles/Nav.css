@@ -1,4 +1,4 @@
-nav {
+.nav {
     display: flex;
     width: 100%;
     align-items: center;
@@ -15,7 +15,7 @@ nav {
     justify-content: center;
 }
 
-ul {
+.nav-ul {
     height: 50px;
     display: flex;
     width: 100%;
@@ -35,13 +35,9 @@ a {
     color: black;
 }
 
-.active {
-    color: red;
-}
-
 .cart {
-    width: 100vw;
-    min-height: calc(100vh - 125px);
+    width: 100%;
+    height: calc(100vh - 125px);
     position: absolute;
     top: 125px; 
     background-color: rgba(180, 179, 179, 0.397);
@@ -54,17 +50,20 @@ a {
     display: grid;
     gap: 10px;
     width: 100%;
+    max-height: 300px;
+    overflow-y: scroll;
 }
 
 .cart-container{
  background-color: white;
- width: 40%;
+ width: 30%;
  display: grid;
  grid-template-rows: 10% 70% 20%;
- padding: 50px;
+ padding: 40px;
  align-items: start;
  min-width: 450px;
  justify-items: center;
+ max-height: calc(100vh - 125px);
 }
 
 .cart-details {
