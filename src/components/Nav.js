@@ -8,12 +8,12 @@ export default function Nav({ products, quantity, setProducts }) {
   const [isDisplayed, setIsDisplayed] = useState(false);
 
   return (
-    <nav>
+    <nav className="nav">
       <div className="nav-title">
-        <h1>SKINCARE & CO</h1>
+        <h1>THE BOUTIQUE</h1>
         <small>online store</small>
       </div>
-      <ul>
+      <ul className="nav-ul">
         <li>
           <Link to="/">home</Link>
         </li>
