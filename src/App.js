@@ -18,9 +18,9 @@ function App() {
       />
       <main>
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route path="/shopping-cart" element={<Homepage />} />
           <Route
-            path="/shop"
+            path="/shopping-cart/shop"
             element={<Shop products={products} setProducts={setProducts} />}
           />
         </Routes>
