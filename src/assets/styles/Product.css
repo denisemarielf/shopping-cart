@@ -1,0 +1,30 @@
+.product-container-item {
+    width: 230px;
+    height: 280px;
+    display: grid;
+    grid-template-rows: 50% 15% 10% 15%;
+    align-items: end;
+    justify-items: center;
+    border-radius: 10px;
+    background-color: #faf7f6;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    text-align: center;
+}
+
+.product-container-item-image {
+    width: 50%;
+}
+
+.product-container-item-button {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid #8B8B8B;
+    color: #666666;
+    cursor: pointer;
+}
+
+.product-container-item-title, .product-container-item-price{
+    font-size: small;
+
+}

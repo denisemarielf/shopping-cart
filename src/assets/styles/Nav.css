@@ -1,0 +1,124 @@
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.nav-title {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul {
+    height: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    border-bottom: 2px solid rgb(221, 221, 221);
+    border-top: 2px solid rgb(221, 221, 221);
+    align-items: center;
+    
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    color: red;
+}
+
+.cart {
+    width: 100vw;
+    min-height: calc(100vh - 125px);
+    position: absolute;
+    top: 125px; 
+    background-color: rgba(180, 179, 179, 0.397);
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.cart-items-container {
+    display: grid;
+    gap: 10px;
+    width: 100%;
+}
+
+.cart-container{
+ background-color: white;
+ width: 40%;
+ display: grid;
+ grid-template-rows: 10% 70% 20%;
+ padding: 50px;
+ align-items: start;
+ min-width: 450px;
+ justify-items: center;
+}
+
+.cart-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+    width: 100%;
+}
+
+.shopping-cart-container {
+
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.shopping-cart-quantity {
+    background-color: #86B3BA;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    align-items: center;
+}
+
+.cart-button {
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    border: 2px solid grey;
+    color: gray;
+    cursor: pointer;
+}
+
+.cart-button:first-child {
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    border: 2px solid #86B3BA;
+    color: #86B3BA;
+    cursor: pointer;
+}
+
+.cart-details-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
